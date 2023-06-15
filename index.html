@@ -19,16 +19,119 @@
         justify-content:center;
         min-height:90vh;
       }
-      #logo{
-        height: 50vmin;
+      .card-container{
+        display: flex;;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        padding: 2px;
+        margin: 2px;
+      }
+      .card{
+        display: flex;;
+        padding: 2px;
+        margin: 2px 2px 2px 10px;
+      }
+      .card *{
+        padding: 0.2vmin;
+      }
+      .logo img{
+        height: 30vmin;
+      }
+      .icon{
+        height: 10vmin;
       }
     </style>
   </head>
   <body>
     <center>
       <h1>STRONG TOGETHER</h1>
-      <img id="logo" src="/pub/strong-together.png" alt="Strong Together" />
-      <h3>UA Help Project</h3>
+      <div class="card-container">
+        <!-- BLYTHSWOOD-->
+        <div class="card">
+          <div class="logo">
+            <a href="https://www.instagram.com/blythswoodcare/">
+              <img src="/pub/blythswood-logo-small.jpg" alt="Blythswood Care" />
+            </a>
+          </div>
+          <div class="links">
+            <div>
+              <a href="https://www.instagram.com/blythswoodcare/">
+                <img class="icon" src="/pub/instagram_icon.png" alt="Instagram Icon" />
+              </a>
+            </div>
+            <div>
+              <a href="https://www.facebook.com/profile.php?id=100064642601658">
+                <img class="icon" src="/pub/facebook_icon.png" alt="Instagram Icon" />
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- CRISTIANAID-->
+        <div class="card">
+          <div class="logo">
+            <a href="https://www.instagram.com/christianaiduk/">
+              <img src="/pub/cristianaid-logo-small.jpg" alt="Blythswood Care" />
+            </a>
+          </div>
+          <div class="links">
+            <div>
+              <a href="https://www.instagram.com/christianaiduk/">
+                <img class="icon" src="/pub/instagram_icon.png" alt="Instagram Icon" />
+              </a>
+            </div>
+            <div>
+              <a href="https://www.facebook.com/christianaid/">
+                <img class="icon" src="/pub/facebook_icon.png" alt="Instagram Icon" />
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- SCOTTGOV-->
+        <div class="card">
+          <div class="logo">
+            <a href="https://www.instagram.com/scotgov/">
+              <img src="/pub/scottgov-logo-small.jpg" alt="Blythswood Care" />
+            </a>
+          </div>
+          <div class="links">
+            <div>
+              <a href="https://www.instagram.com/scotgov/">
+                <img class="icon" src="/pub/instagram_icon.png" alt="Instagram Icon" />
+              </a>
+            </div>
+            <div>
+              <a href="https://www.facebook.com/TheScottishGovernment/">
+                <img class="icon" src="/pub/facebook_icon.png" alt="Instagram Icon" />
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- HERITAGE-->
+        <div class="card">
+          <div class="logo">
+            <a href="https://www.instagram.com/nasledie.ukraine/">
+              <img src="/pub/heritage-logo-small.jpg" alt="Blythswood Care" />
+            </a>
+          </div>
+          <div class="links">
+            <div>
+              <a href="https://www.instagram.com/nasledie.ukraine/">
+                <img class="icon" src="/pub/instagram_icon.png" alt="Instagram Icon" />
+              </a>
+            </div>
+            <div>
+              <a href="https://www.facebook.com/nasledieukraine/">
+                <img class="icon" src="/pub/facebook_icon.png" alt="Instagram Icon" />
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
     </center>
   </body>
 </html>
