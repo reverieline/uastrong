@@ -7,6 +7,9 @@ const translations = {
   "uk": {
     "title": "РАЗОМ МИ СИЛА",
   },
+  "ru": {
+    "title": "РАЗОМ МИ СИЛА",
+  },
 };
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -25,5 +28,7 @@ document.addEventListener("DOMContentLoaded", () => {
 function translateElement(element) {
   const key = element.getAttribute("data-i18n-key");
   const translation = translations[locale][key];
-  element.innerText = translation;
+  if(undefined!=translation){
+    element.innerText = translation;
+  }
 }
