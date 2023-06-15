@@ -13,6 +13,7 @@
     <script src="pub/localization.js"></script>
 
     <title>UA Strong Project</title>
+    
     <style>
       body {
         display:flex; 
@@ -42,20 +43,26 @@
       .icon{
         height: 10vmin;
       }
+      .headline{
+        margin: 10vmin;
+      }
       .footer{
         display: flex;;
         flex-wrap: wrap;
         align-items: end;
         justify-content: end;
         padding: 1px;
-        margin: 5px;
+        margin-top: 10vmin;
         font-size: 0.5em;
       }
     </style>
   </head>
+
   <body>
     <center>
-      <h1 data-i18n-key="title">STRONG TOGETHER</h1>
+      
+      <h1 class="headline" data-i18n-key="title">STRONG TOGETHER</h1>
+
       <div class="card-container">
         <!-- BLYTHSWOOD-->
         <div class="card">
@@ -142,10 +149,12 @@
         </div>
 
       </div>
+
     </center>
     
     <div class="footer" data-i18n-key="copyright">
       © reverieline 2023
     </div>
   </body>
+
 </html>
