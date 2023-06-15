@@ -3,12 +3,15 @@ let locale = "en";
 const translations = {
   "en": {
     "title": "STRONG TOGETHER",
+    "feedback": "FEEDBACK",
   },
   "uk": {
     "title": "РАЗОМ МИ СИЛА",
+    "feedback": "ЗАЛИШИТИ ВІДГУК",
   },
   "ru": {
     "title": "РАЗОМ МИ СИЛА",
+    "feedback": "ЗАЛИШИТИ ВІДГУК",
   },
 };
 
