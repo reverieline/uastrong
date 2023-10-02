@@ -4,14 +4,17 @@ const translations = {
   "en": {
     "title": "STRONG TOGETHER",
     "feedback": "FEEDBACK",
+    "donor-feedback": "Please take part in the survey",
   },
   "uk": {
     "title": "РАЗОМ МИ СИЛА",
     "feedback": "ЗАЛИШИТИ ВІДГУК",
+    "donor-feedback": "Пройдіть опитування, будь ласка",
   },
   "ru": {
     "title": "РАЗОМ МИ СИЛА",
     "feedback": "ЗАЛИШИТИ ВІДГУК",
+    "donor-feedback": "Пройдите опрос, пожалуйста",
   },
 };
 
