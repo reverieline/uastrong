@@ -56,27 +56,22 @@
         margin-top: 10vmin;
         font-size: 0.5em;
       }
-      #feedback{
+      #feedback-frame{
         height: 90vh;
         width: 90vw;
         margin-top: 50px;
       }
 
-      #feedback-link{
-        background-color: black;
+      #donor-feedback{
         text-decoration: none;
         color: white;
-        padding: 10px 20px 10px 20px;
-      }
-      #donor-feedback-link{
-        background-color: black;
-        text-decoration: none;
-        color: white;
-        padding: 10px 20px 10px 20px;
+        font-size: 2em;
       }
 
-      .link-container{
-        margin-bottom: 6vmin;
+      .donor-feedback-link-container{
+        margin: 10vmin;
+        padding: 20px;
+        background-color: #000077;
       }
     </style>
   </head>
@@ -85,10 +80,11 @@
     <center>
       
       <h1 class="headline" data-i18n-key="title">STRONG TOGETHER</h1>
-      <div class="link-container">
-        <!--<a data-i18n-key="feedback"" id="feedback-link" href="#feedback">FEEDBACK</a>-->
-        <a data-i18n-key="donor-feedback"" id="donor-feedback-link" href="https://sprw.io/stt-2ec5e49c9b">DONOR FEEDBACK</a>
+      <a href="https://sprw.io/stt-2ec5e49c9b">
+      <div class="donor-feedback-link-container">
+        <span data-i18n-key="donor-feedback"" id="donor-feedback">DONOR FEEDBACK</span>
       </div>
+      </a>
 
       
       <div class="card-container">
@@ -198,8 +194,8 @@
 
       </div>
     
-
-      <iframe id="feedback" src="https://docs.google.com/forms/d/e/1FAIpQLSfRDYYYvSQjfoCPKEnYFUUuTFlEET-R5frZxxLTGBaHU6-JWA/viewform?embedded=true" frameborder="0" ><p data-i18n-key="loading">Loading...</p></iframe>
+      
+      <iframe id="feedback-frame" src="https://docs.google.com/forms/d/e/1FAIpQLSfRDYYYvSQjfoCPKEnYFUUuTFlEET-R5frZxxLTGBaHU6-JWA/viewform?embedded=true" frameborder="0" ><p data-i18n-key="loading">Loading...</p></iframe>
 
     </center>
     
