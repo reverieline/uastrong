@@ -3,18 +3,18 @@ let locale = "en";
 const translations = {
   "en": {
     "title": "STRONG TOGETHER",
-    "feedback": "FEEDBACK",
-    "donor-feedback": "Please take part in the survey",
+    "heritage-feedback": "Feedback to us",
+    "donor-feedback": "Feedback directly to our donors",
   },
   "uk": {
     "title": "РАЗОМ МИ СИЛА",
-    "feedback": "ЗАЛИШИТИ ВІДГУК",
-    "donor-feedback": "Пройдіть опитування, будь ласка",
+    "heritage-feedback": "Зворотній зв'язок з нами",
+    "donor-feedback": "Залишити відгук безпосередньо нашим донорам",
   },
   "ru": {
     "title": "РАЗОМ МИ СИЛА",
-    "feedback": "ЗАЛИШИТИ ВІДГУК",
-    "donor-feedback": "Пройдите опрос, пожалуйста",
+    "heritage-feedback": "Форма обратной связи",
+    "donor-feedback": "Отправить отзыв напрямую нашим донорам",
   },
 };
 
