@@ -18,6 +18,18 @@ const translations = {
   },
 };
 
+const src_translations={
+  "en":{
+    "kobo-src": "https://enketo.unhcr.org/i/Ar8UYf26?lang=en",
+  },
+  "ru":{
+    "kobo-src": "https://enketo.unhcr.org/i/Ar8UYf26?lang=ru",
+  },
+  "uk":{
+    "kobo-src": "https://enketo.unhcr.org/i/Ar8UYf26?lang=uk",
+  },
+}
+
 document.addEventListener("DOMContentLoaded", () => {
   for(const l of navigator.languages){
     if(Object.keys(translations).indexOf(l)>=0){
@@ -29,6 +41,10 @@ document.addEventListener("DOMContentLoaded", () => {
   document
     .querySelectorAll("[data-i18n-key]")
     .forEach(translateElement);
+
+  document
+    .querySelectorAll("[data-src-i18n-key]")
+    .forEach(src_translateElement);
 });
 
 function translateElement(element) {
@@ -36,5 +52,13 @@ function translateElement(element) {
   const translation = translations[locale][key];
   if(undefined!=translation){
     element.innerText = translation;
+  }
+}
+
+function src_translateElement(element) {
+  const key = element.getAttribute("data-src-i18n-key");
+  const translation = src_translations[locale][key];
+  if(undefined!=translation){
+    element.src = translation;
   }
 }
